@@ -8,13 +8,34 @@
      .box{
          border: 2px solid red;
          padding:10px;
+         background-color: blueviolet;  
+         opacity: 1;
+         transition: opacity 4s, background-color 3s, font-size 10s, transform 5s, height 5s, width 5s, margin 10s;
+         font-size: 15px;
+         transform:scale(1);
+         width: 200px;
+         height: 300px;
+         float: left;
+         margin: 20px;
+         overflow: auto;
+     }
+     .box:hover {
+         opacity: 1;
+         font-size:30px ;
+         background-color:green ;
+         border: 8px solid blue;
+         transform: translate(50px) scale(3) rotate(45deg) ;
+         width: 50px;
+         height: 100px;
+         margin: 100px;
+
      }
 
-""
     </style>
 </head>
 <body>
-    <div>class="box">Hello</div>
-    
+    <div class="box">lorem </div>
+    <div class="box">Hello</div>
+    <div class="box">Hello</div>
 </body>
 </html>
