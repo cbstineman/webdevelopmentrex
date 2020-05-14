@@ -23,6 +23,23 @@
                  width: 300px;
              }
 
+             .text {
+                 box-shadow: 0px 0px 3px 1px gray;
+                 cursor: pointer;
+                 transition: box-shadow .2s;
+                 transition: background-color 1s ease;
+
+             }
+             .text:hover {
+                 box-shadow: black;
+                 background-color: lightskyblue;
+                 box-shadow: 0px 0px 4px 2px darkgray;
+
+             }
+
+
+
+
         </style>
 
 
@@ -33,11 +50,11 @@
     
         <div class="first-name">
             <label>First Name</label>
-            <input type="text">
+            <input type="text" class="text">
         </div>
         <div class="second-name">
             <label>Last Name</label>
-            <input type="text" style="margin-left: 2px;">
+            <input type="text" style="margin-left: 2px;" class="text">
         </div>
     
     </form>
