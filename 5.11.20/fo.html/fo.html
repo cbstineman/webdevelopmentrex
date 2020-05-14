@@ -6,40 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>input</title>
     <div class="class">
-         <style>
-             .first-name 
-             {
-                 margin: 5px;
-                 margin-left: 20px;
-                 margin-top: 28px;
-             } 
-             
-             .second-name {
-                 margin-left: 20px;
-             }
-             body {
-                 border: 2px solid black;
-                 height: 100px;
-                 width: 300px;
-             }
+        <style>
+            .first-name {
+                margin: 5px;
+                margin-left: 20px;
+                margin-top: 28px;
+            }
 
-             .text {
-                 box-shadow: 0px 0px 3px 1px gray;
-                 cursor: pointer;
-                 transition: box-shadow .2s;
-                 transition: background-color 1s ease;
+            .second-name {
+                margin-left: 20px;
+            }
 
-             }
-             .text:hover {
-                 box-shadow: black;
-                 background-color: lightskyblue;
-                 box-shadow: 0px 0px 4px 2px darkgray;
+            body {
+                border: 2px solid black;
+                height: 100px;
+                width: 300px;
+            }
 
-             }
+            label {
+                border: 1px solid black;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-bottom: 2px;
+            }
+            
+            .text {
+                box-shadow: 0px 0px 3px 1px gray;
+                cursor: pointer;
+                transition: box-shadow .2s;
+                transition: background-color .2s ease;
 
+            }
 
+            .text:hover {
+                box-shadow: black;
+                background-color: lightskyblue;
+                box-shadow: 0px 0px 4px 2px darkgray;
 
-
+            }
         </style>
 
 
@@ -47,7 +51,7 @@
 
 <body>
     <form>
-    
+
         <div class="first-name">
             <label>First Name</label>
             <input type="text" class="text">
@@ -56,7 +60,7 @@
             <label>Last Name</label>
             <input type="text" style="margin-left: 2px;" class="text">
         </div>
-    
+
     </form>
 
 </body>
